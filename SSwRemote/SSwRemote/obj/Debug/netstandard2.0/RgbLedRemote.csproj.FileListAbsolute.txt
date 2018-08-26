@@ -1,0 +1,11 @@
+C:\Users\Glen\source\repos\RgbLedRemote\RgbLedRemote\RgbLedRemote\bin\Debug\netstandard2.0\RgbLedRemote.deps.json
+C:\Users\Glen\source\repos\RgbLedRemote\RgbLedRemote\RgbLedRemote\bin\Debug\netstandard2.0\RgbLedRemote.dll
+C:\Users\Glen\source\repos\RgbLedRemote\RgbLedRemote\RgbLedRemote\bin\Debug\netstandard2.0\RgbLedRemote.pdb
+C:\Users\Glen\source\repos\RgbLedRemote\RgbLedRemote\RgbLedRemote\obj\Debug\netstandard2.0\RgbLedRemote.csprojAssemblyReference.cache
+C:\Users\Glen\source\repos\RgbLedRemote\RgbLedRemote\RgbLedRemote\obj\Debug\netstandard2.0\RgbLedRemote.csproj.CoreCompileInputs.cache
+C:\Users\Glen\source\repos\RgbLedRemote\RgbLedRemote\RgbLedRemote\obj\Debug\netstandard2.0\RgbLedRemote.AssemblyInfoInputs.cache
+C:\Users\Glen\source\repos\RgbLedRemote\RgbLedRemote\RgbLedRemote\obj\Debug\netstandard2.0\RgbLedRemote.AssemblyInfo.cs
+C:\Users\Glen\source\repos\RgbLedRemote\RgbLedRemote\RgbLedRemote\obj\Debug\netstandard2.0\RgbLedRemote.dll
+C:\Users\Glen\source\repos\RgbLedRemote\RgbLedRemote\RgbLedRemote\obj\Debug\netstandard2.0\RgbLedRemote.pdb
+C:\Users\Glen\source\repos\RgbLedRemote\RgbLedRemote\RgbLedRemote\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Glen\source\repos\RgbLedRemote\RgbLedRemote\RgbLedRemote\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
