@@ -132,8 +132,6 @@ namespace SSwRemote
             IsOn = false;
             IsOff = false;
             IsBlinking = false;
-            IsPulsing = false;
-            IsRunningColors = false;
         }
 
         async Task GetServersAsync ()
@@ -182,17 +180,9 @@ namespace SSwRemote
                     if(isSuccessful = await SSwClient.TurnOffAsync(SelectedServer))
                         IsOff = true;
                     break;
-                case "StartBlink":
-                    if(isSuccessful = await SSwClient.BlinkAsync(SelectedServer))
+                case "TransferFile":
+                    if(isSuccessful = await SSwClient.TransferFile(SelectedServer))
                         IsBlinking = true;
-                    break;
-                case "StartPulse":
-                    if(isSuccessful = await SSwClient.PulseAsync(SelectedServer))
-                        IsPulsing = true;
-                    break;
-                case "StartRunningColors":
-                    if(isSuccessful = await SSwClient.CycleColorsAsync(SelectedServer))
-                        IsRunningColors = true;
                     break;
             }
 

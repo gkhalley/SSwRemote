@@ -14,19 +14,10 @@ namespace SSwRemote.Client
             return (await SendCommandAsync("TurnOff", server.IpAddress));
         }
 
-        public async Task<bool> PulseAsync(ServerItem server)
+        public async Task<bool> TransferFile(ServerItem server)
         {
-            return (await SendCommandAsync("StartPulse", server.IpAddress));
+            return (await SendCommandAsync("TransferFile", server.IpAddress));
         }
 
-        public async Task<bool> BlinkAsync(ServerItem server)
-        {
-            return (await SendCommandAsync("StartBlink", server.IpAddress));
-        }
-
-        public async Task<bool> CycleColorsAsync(ServerItem server)
-        {
-            return (await SendCommandAsync("StartRunningColors", server.IpAddress));
-        }
     }
 }

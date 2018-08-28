@@ -49,8 +49,8 @@
                     </Button.Triggers>
                 </Button>
 
-                <Button Text="Start Blink" Style="{StaticResource ButtonStyle}"
-                    Command="{Binding SendCommand}" CommandParameter="StartBlink">
+                <Button Text="Transfer File" Style="{StaticResource ButtonStyle}"
+                    Command="{Binding SendCommand}" CommandParameter="TransferFile">
                     <Button.Triggers>
                         <DataTrigger TargetType="Button" Binding="{Binding IsBlinking}" Value="true">
                             <Setter Property="BackgroundColor" Value="{StaticResource ButtonActive}" />
@@ -61,29 +61,6 @@
                     </Button.Triggers>
                 </Button>
 
-                <Button Text="Start Pulse" Style="{StaticResource ButtonStyle}"
-                    Command="{Binding SendCommand}" CommandParameter="StartPulse">
-                    <Button.Triggers>
-                        <DataTrigger TargetType="Button" Binding="{Binding IsPulsing}" Value="true">
-                            <Setter Property="BackgroundColor" Value="{StaticResource ButtonActive}" />
-                        </DataTrigger>
-                        <DataTrigger TargetType="Button" Binding="{Binding IsPulsing}" Value="false">
-                            <Setter Property="BackgroundColor" Value="{StaticResource ButtonInactive}" />
-                        </DataTrigger>
-                    </Button.Triggers>
-                </Button>
-
-                <Button Text="Start Running Colors" Style="{StaticResource ButtonStyle}"
-                    Command="{Binding SendCommand}" CommandParameter="StartRunningColors">
-                    <Button.Triggers>
-                        <DataTrigger TargetType="Button" Binding="{Binding IsRunningColors}" Value="true">
-                            <Setter Property="BackgroundColor" Value="{StaticResource ButtonActive}" />
-                        </DataTrigger>
-                        <DataTrigger TargetType="Button" Binding="{Binding IsRunningColors}" Value="false">
-                            <Setter Property="BackgroundColor" Value="{StaticResource ButtonInactive}" />
-                        </DataTrigger>
-                    </Button.Triggers>
-                </Button>
             </StackLayout>
 
             <Button Text="Change Servers" Style="{StaticResource ButtonStyle}" VerticalOptions="End" Margin="30"
